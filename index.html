@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>União Esquadrias | Soluções em Alumínio</title>
+    <meta
+      name="description"
+      content="Landing page da União Esquadrias, especialistas em esquadrias de alumínio e envoltórios arquitetônicos."
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                primary: '#0a80bd',
+                light: '#c1dfef',
+                dark: '#04324a',
+              },
+            },
+            fontFamily: {
+              display: ['"Space Grotesk"', 'sans-serif'],
+              body: ['"Inter"', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="min-h-screen bg-gradient-to-b from-white via-brand-light/40 to-white text-slate-900 font-body selection:bg-brand-primary/20 selection:text-brand-dark"
+  >
+    <div
+      class="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(10,128,189,0.2),_transparent_55%)] pointer-events-none"
+    ></div>
+    <header
+      class="fixed top-0 inset-x-0 z-50 bg-white/90 backdrop-blur border-b border-brand-light/60 shadow-sm"
+    >
+      <div
+        class="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between"
+      >
+        <div class="flex items-center gap-3">
+          <img
+            src="assets/logo.png"
+            alt="Logotipo da União Esquadrias"
+            class="h-11 w-11 object-contain"
+          />
+          <div>
+            <p class="font-display text-lg tracking-wide text-brand-dark">
+              União Esquadrias
+            </p>
+            <p class="text-xs uppercase text-slate-500 tracking-[0.35em]">
+              Excelência em Alumínio
+            </p>
+          </div>
+        </div>
+        <nav
+          class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-600"
+        >
+          <a href="#services" class="hover:text-brand-primary transition"
+            >Serviços</a
+          >
+          <a href="#projects" class="hover:text-brand-primary transition"
+            >Projetos</a
+          >
+          <a href="#process" class="hover:text-brand-primary transition"
+            >Processo</a
+          >
+          <a href="#contact" class="hover:text-brand-primary transition"
+            >Contato</a
+          >
+        </nav>
+        <a
+          href="#contact"
+          class="px-5 py-2 rounded-full bg-brand-primary text-white font-semibold shadow-lg shadow-brand-primary/30 hover:-translate-y-0.5 transition"
+          >Solicitar orçamento</a
+        >
+      </div>
+    </header>
+    <main class="relative pt-32 pb-10">
+      <section
+        class="mx-auto max-w-6xl px-6 grid gap-12 lg:grid-cols-[1.1fr_0.9fr] items-center"
+      >
+        <div class="space-y-8">
+          <p
+            class="inline-flex items-center gap-2 text-xs uppercase tracking-[0.45em] text-brand-dark/70"
+          >
+            Precisão • Design • Segurança
+          </p>
+          <h1
+            class="font-display text-4xl sm:text-5xl lg:text-6xl leading-tight text-brand-dark"
+          >
+            Esquadrias de alumínio sob medida para impacto duradouro
+          </h1>
+          <p class="text-lg text-slate-600">
+            Projetamos, fabricamos e instalamos soluções premium em alumínio que
+            alinham estética e desempenho estrutural para obras residenciais,
+            comerciais e industriais.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a
+              href="#projects"
+              class="px-6 py-3 rounded-full bg-brand-primary text-white font-semibold shadow-lg shadow-brand-primary/30 hover:bg-brand-dark transition"
+              >Ver projetos</a
+            >
+            <a
+              href="#services"
+              class="px-6 py-3 rounded-full bg-white border border-brand-primary/40 text-brand-primary font-semibold hover:border-brand-primary transition"
+              >Explorar serviços</a
+            >
+          </div>
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+            <div
+              class="rounded-2xl bg-white border border-brand-light/70 p-4 shadow-sm"
+            >
+              <p class="text-3xl font-display text-brand-primary">18+</p>
+              <p class="text-xs uppercase tracking-wide text-slate-500">
+                Anos de atuação
+              </p>
+            </div>
+            <div
+              class="rounded-2xl bg-white border border-brand-light/70 p-4 shadow-sm"
+            >
+              <p class="text-3xl font-display text-brand-primary">320+</p>
+              <p class="text-xs uppercase tracking-wide text-slate-500">
+                Projetos concluídos
+              </p>
+            </div>
+            <div
+              class="rounded-2xl bg-white border border-brand-light/70 p-4 shadow-sm"
+            >
+              <p class="text-3xl font-display text-brand-primary">96%</p>
+              <p class="text-xs uppercase tracking-wide text-slate-500">
+                Entregas no prazo
+              </p>
+            </div>
+            <div
+              class="rounded-2xl bg-white border border-brand-light/70 p-4 shadow-sm"
+            >
+              <p class="text-3xl font-display text-brand-primary">ISO</p>
+              <p class="text-xs uppercase tracking-wide text-slate-500">
+                Materiais certificados
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="grid gap-6">
+          <div
+            class="rounded-[32px] bg-white border border-brand-light shadow-xl p-8"
+          >
+            <p class="text-xs uppercase tracking-[0.45em] text-slate-500">
+              Prévia de projeto
+            </p>
+            <div
+              class="mt-4 rounded-2xl border border-dashed border-brand-primary/30 bg-brand-light/50 aspect-[4/3] flex items-center justify-center text-brand-dark/40 text-sm tracking-[0.4em]"
+            >
+              Espaço para foto
+            </div>
+            <div class="mt-6 flex items-center justify-between">
+              <div>
+                <p class="font-semibold text-lg text-brand-dark">
+                  Torre Curtain Wall
+                </p>
+                <p class="text-xs text-slate-500">
+                  Fachada corporativa • São Paulo
+                </p>
+              </div>
+              <span class="text-sm text-brand-primary font-semibold"
+                >Em execução</span
+              >
+            </div>
+          </div>
+          <div
+            class="rounded-[32px] border border-brand-light bg-white/70 p-6 flex items-center gap-4 shadow-sm"
+          >
+            <div
+              class="h-16 w-16 rounded-2xl bg-brand-primary/15 border border-brand-primary/30 flex items-center justify-center font-display text-lg text-brand-primary"
+            >
+              24h
+            </div>
+            <p class="text-sm text-slate-600">
+              Suporte de engenharia dedicado do conceito à instalação com
+              acompanhamento em obra.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="mx-auto max-w-6xl px-6 mt-28 space-y-12">
+        <div
+          class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6"
+        >
+          <div>
+            <p class="text-xs uppercase tracking-[0.45em] text-brand-dark">
+              Portfólio
+            </p>
+            <h2 class="font-display text-3xl sm:text-4xl mt-3 text-brand-dark">
+              Soluções pensadas para cada escala
+            </h2>
+          </div>
+          <p class="text-slate-600 max-w-2xl">
+            De apartamentos exclusivos a grandes complexos industriais, a União
+            Esquadrias combina ligas certificadas, usinagem precisa e
+            acabamentos versáteis para elevar conforto, segurança e o conceito
+            arquitetônico.
+          </p>
+        </div>
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <article
+            class="rounded-3xl border border-brand-light bg-white p-6 shadow-sm hover:-translate-y-1 transition"
+          >
+            <h3 class="font-semibold text-lg text-brand-dark">
+              Esquadrias sob medida
+            </h3>
+            <p class="text-sm text-slate-600 mt-2">
+              Modelagem, prototipagem e fabricação de esquadrias ajustadas a
+              vãos únicos, cargas de vento e requisitos de desempenho.
+            </p>
+          </article>
+          <article
+            class="rounded-3xl border border-brand-light bg-white p-6 shadow-sm hover:-translate-y-1 transition"
+          >
+            <h3 class="font-semibold text-lg text-brand-dark">
+              Portas e janelas
+            </h3>
+            <p class="text-sm text-slate-600 mt-2">
+              Sistemas de correr, pivotantes, de giro, maxim-ar e integrados com
+              foco em conforto acústico e térmico.
+            </p>
+          </article>
+          <article
+            class="rounded-3xl border border-brand-light bg-white p-6 shadow-sm hover:-translate-y-1 transition"
+          >
+            <h3 class="font-semibold text-lg text-brand-dark">
+              Fachadas estruturais
+            </h3>
+            <p class="text-sm text-slate-600 mt-2">
+              Pele de vidro, glazing estrutural e fachadas híbridas que unem
+              transparência e resistência.
+            </p>
+          </article>
+          <article
+            class="rounded-3xl border border-brand-light bg-white p-6 shadow-sm hover:-translate-y-1 transition"
+          >
+            <h3 class="font-semibold text-lg text-brand-dark">
+              Acessos automatizados
+            </h3>
+            <p class="text-sm text-slate-600 mt-2">
+              Portões, portas e painéis motorizados ou manuais em alumínio, com
+              sistemas de controle seguros.
+            </p>
+          </article>
+          <article
+            class="rounded-3xl border border-brand-light bg-white p-6 shadow-sm hover:-translate-y-1 transition"
+          >
+            <h3 class="font-semibold text-lg text-brand-dark">
+              Aplicações em vidro
+            </h3>
+            <p class="text-sm text-slate-600 mt-2">
+              Guarda-corpos, corrimãos, boxes e divisórias em vidro temperado ou
+              laminado.
+            </p>
+          </article>
+          <article
+            class="rounded-3xl border border-brand-light bg-white p-6 shadow-sm hover:-translate-y-1 transition"
+          >
+            <h3 class="font-semibold text-lg text-brand-dark">
+              Instalação e manutenção
+            </h3>
+            <p class="text-sm text-slate-600 mt-2">
+              Equipes especializadas para montagem, calibração, vedação e
+              rotinas de manutenção preventiva.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section
+        class="mx-auto max-w-6xl px-6 mt-28 grid gap-10 lg:grid-cols-[0.9fr_1.1fr] items-center"
+      >
+        <div
+          class="rounded-[36px] border border-brand-light bg-white p-8 shadow-lg"
+        >
+          <p class="text-xs uppercase tracking-[0.45em] text-brand-dark">
+            Mercados atendidos
+          </p>
+          <ul class="mt-6 space-y-4 text-slate-700">
+            <li class="flex items-center gap-3">
+              <span class="h-2.5 w-2.5 rounded-full bg-brand-primary"></span>
+              Edifícios residenciais altos e casas assinadas
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="h-2.5 w-2.5 rounded-full bg-brand-primary"></span>
+              Sedes corporativas e empreendimentos de uso misto
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="h-2.5 w-2.5 rounded-full bg-brand-primary"></span>
+              Varejo, hospitalidade e instituições de ensino
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="h-2.5 w-2.5 rounded-full bg-brand-primary"></span>
+              Parques industriais, centros logísticos e plantas fabris
+            </li>
+          </ul>
+          <p class="mt-6 text-sm text-slate-500">
+            Cada segmento recebe consultoria sob medida para alinhar requisitos
+            de desempenho e objetivos arquitetônicos.
+          </p>
+        </div>
+        <div class="grid gap-6 lg:grid-cols-2">
+          <div
+            class="rounded-3xl border border-brand-light bg-white p-6 shadow-md"
+          >
+            <p class="text-xs uppercase tracking-[0.45em] text-slate-500">
+              Biblioteca de materiais
+            </p>
+            <div
+              class="mt-4 rounded-2xl border border-dashed border-brand-primary/30 bg-brand-light/60 aspect-[4/3] flex items-center justify-center text-brand-dark/40 text-sm tracking-[0.4em]"
+            >
+              Espaço para foto
+            </div>
+            <p class="mt-4 text-sm text-slate-600">
+              Paleta de pintura eletrostática, anodização e catálogo de perfis
+              prontos para sessões de especificação.
+            </p>
+          </div>
+          <div
+            class="rounded-3xl border border-brand-light bg-white p-6 shadow-md"
+          >
+            <p class="text-xs uppercase tracking-[0.45em] text-slate-500">
+              Área de protótipos
+            </p>
+            <div
+              class="mt-4 rounded-2xl border border-dashed border-brand-primary/30 bg-brand-light/60 aspect-[4/3] flex items-center justify-center text-brand-dark/40 text-sm tracking-[0.4em]"
+            >
+              Espaço para foto
+            </div>
+            <p class="mt-4 text-sm text-slate-600">
+              Mockups testados para carga, vedação e funcionalidade antes da
+              instalação em campo.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="mx-auto max-w-6xl px-6 mt-28 space-y-10">
+        <div
+          class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6"
+        >
+          <div>
+            <p class="text-xs uppercase tracking-[0.45em] text-brand-dark">
+              Projetos
+            </p>
+            <h2 class="font-display text-3xl sm:text-4xl mt-3 text-brand-dark">
+              Destaques recentes
+            </h2>
+          </div>
+          <p class="text-slate-600 max-w-3xl">
+            Veja como fechamentos em vidro, guarda-corpos em alumínio e fachadas
+            inteligentes transformam espaços com eficiência e linhas
+            contemporâneas.
+          </p>
+        </div>
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <article
+            class="rounded-3xl border border-brand-light bg-white p-5 space-y-4 shadow-md"
+          >
+            <div
+              class="rounded-2xl bg-brand-light/80 border border-dashed border-brand-primary/30 aspect-[4/3] flex items-center justify-center text-brand-dark/40 text-xs tracking-[0.4em]"
+            >
+              Espaço para foto
+            </div>
+            <div>
+              <p class="font-semibold text-brand-dark">
+                Skyline Corporate Plaza
+              </p>
+              <p class="text-sm text-slate-600">
+                Glazing estrutural + acessos automatizados
+              </p>
+            </div>
+          </article>
+          <article
+            class="rounded-3xl border border-brand-light bg-white p-5 space-y-4 shadow-md"
+          >
+            <div
+              class="rounded-2xl bg-brand-light/80 border border-dashed border-brand-primary/30 aspect-[4/3] flex items-center justify-center text-brand-dark/40 text-xs tracking-[0.4em]"
+            >
+              Espaço para foto
+            </div>
+            <div>
+              <p class="font-semibold text-brand-dark">Aurora Residences</p>
+              <p class="text-sm text-slate-600">
+                Portas panorâmicas de correr + guarda-corpos
+              </p>
+            </div>
+          </article>
+          <article
+            class="rounded-3xl border border-brand-light bg-white p-5 space-y-4 shadow-md"
+          >
+            <div
+              class="rounded-2xl bg-brand-light/80 border border-dashed border-brand-primary/30 aspect-[4/3] flex items-center justify-center text-brand-dark/40 text-xs tracking-[0.4em]"
+            >
+              Espaço para foto
+            </div>
+            <div>
+              <p class="font-semibold text-brand-dark">
+                LogPrime Parque Industrial
+              </p>
+              <p class="text-sm text-slate-600">
+                Vãos amplos envidraçados + fechamentos de segurança
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="process" class="mx-auto max-w-6xl px-6 mt-28">
+        <div
+          class="rounded-[40px] border border-brand-light bg-white p-10 shadow-xl"
+        >
+          <div
+            class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8"
+          >
+            <div>
+              <p class="text-xs uppercase tracking-[0.45em] text-brand-dark">
+                Processo
+              </p>
+              <h2
+                class="font-display text-3xl sm:text-4xl mt-3 text-brand-dark"
+              >
+                Fluxo consultivo que mantém cada etapa alinhada
+              </h2>
+            </div>
+            <a
+              href="#contact"
+              class="px-6 py-3 rounded-full bg-brand-primary text-white font-semibold shadow-lg shadow-brand-primary/30 hover:bg-brand-dark transition text-center"
+              >Agendar briefing</a
+            >
+          </div>
+          <div class="mt-10 grid gap-6 lg:grid-cols-4">
+            <div
+              class="rounded-3xl border border-brand-light bg-brand-light/40 p-5"
+            >
+              <p class="text-sm font-semibold text-brand-dark">1. Descoberta</p>
+              <p class="text-sm text-slate-600 mt-2">
+                Briefing com clientes, arquitetos e engenheiros para definir
+                metas, cargas e especificações.
+              </p>
+            </div>
+            <div
+              class="rounded-3xl border border-brand-light bg-brand-light/40 p-5"
+            >
+              <p class="text-sm font-semibold text-brand-dark">2. Engenharia</p>
+              <p class="text-sm text-slate-600 mt-2">
+                Modelagem detalhada, seleção de perfis, listas de corte e
+                documentação de conformidade.
+              </p>
+            </div>
+            <div
+              class="rounded-3xl border border-brand-light bg-brand-light/40 p-5"
+            >
+              <p class="text-sm font-semibold text-brand-dark">3. Fabricação</p>
+              <p class="text-sm text-slate-600 mt-2">
+                Usinagem CNC, montagem, acabamento e inspeções rigorosas de
+                qualidade.
+              </p>
+            </div>
+            <div
+              class="rounded-3xl border border-brand-light bg-brand-light/40 p-5"
+            >
+              <p class="text-sm font-semibold text-brand-dark">4. Instalação</p>
+              <p class="text-sm text-slate-600 mt-2">
+                Equipes em campo garantem encaixe preciso, vedação, automação e
+                pós-entrega.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="mx-auto max-w-6xl px-6 mt-28">
+        <div
+          class="rounded-[40px] bg-gradient-to-br from-brand-primary to-brand-dark text-white p-10 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] shadow-2xl"
+        >
+          <div>
+            <p class="text-xs uppercase tracking-[0.45em] text-white/70">
+              Contato
+            </p>
+            <h2 class="font-display text-3xl sm:text-4xl mt-3">
+              Leve precisão para o seu próximo projeto
+            </h2>
+            <p class="text-white/90 mt-4">
+              Envie o projeto executivo ou estudos preliminares e nossa
+              engenharia responde com recomendações sob medida em até 48 horas.
+            </p>
+            <div class="mt-6 space-y-3 text-sm">
+              <p class="font-semibold">consultoria@uniao-esquadrias.com.br</p>
+              <p class="font-semibold">+55 (11) 4002-8922</p>
+              <p class="text-white/80">
+                Rua Projetista, 245 • Distrito Industrial • São Paulo, SP
+              </p>
+            </div>
+          </div>
+          <div class="space-y-4">
+            <div class="rounded-3xl border border-white/30 bg-white/10 p-6">
+              <p class="text-xs uppercase tracking-[0.45em] text-white/70">
+                Painel de referências
+              </p>
+              <div
+                class="mt-4 rounded-2xl border border-dashed border-white/50 bg-white/5 aspect-[3/2] flex items-center justify-center text-white/60 text-xs tracking-[0.4em]"
+              >
+                Espaço para foto
+              </div>
+            </div>
+            <div class="rounded-3xl border border-white/30 bg-white/10 p-6">
+              <p class="text-xs uppercase tracking-[0.45em] text-white/70">
+                Vistoria técnica
+              </p>
+              <div
+                class="mt-4 rounded-2xl border border-dashed border-white/50 bg-white/5 aspect-[3/2] flex items-center justify-center text-white/60 text-xs tracking-[0.4em]"
+              >
+                Espaço para foto
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="border-t border-brand-light/60 bg-white py-8 mt-8">
+      <div
+        class="mx-auto max-w-6xl px-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4 text-sm text-slate-600"
+      >
+        <p>
+          © <span id="year"></span> União Esquadrias. Soluções em alumínio com
+          precisão artesanal.
+        </p>
+        <div class="flex items-center gap-6 font-semibold">
+          <a href="#services" class="hover:text-brand-primary transition"
+            >Serviços</a
+          >
+          <a href="#projects" class="hover:text-brand-primary transition"
+            >Projetos</a
+          >
+          <a href="#contact" class="hover:text-brand-primary transition"
+            >Contato</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
